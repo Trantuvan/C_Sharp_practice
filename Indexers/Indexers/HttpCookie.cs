@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Indexers
 {
@@ -7,6 +8,7 @@ namespace Indexers
         //declaring a dict and always remember to initialize with empty dict avoid null excpetion
         //adding readonly modifier to avoid lost data
         private readonly Dictionary<string, string> _dictionary;
+        public DateTime Expiry { get; set; }
 
         public HttpCookie()
         {
