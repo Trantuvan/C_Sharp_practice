@@ -9,7 +9,8 @@ namespace ConstructorAndInterfaces
     {
         static void Main(string[] args)
         {
-            var car = new Car();
+            var car = new Car("1234");
         }
     }
 }
+ 
