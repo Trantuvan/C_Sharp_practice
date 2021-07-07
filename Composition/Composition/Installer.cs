@@ -12,5 +12,5 @@
         {
             _logger.Log("We are installing.. ");
         }
-    }    
+    }
 }

@@ -8,7 +8,7 @@ namespace Composition
         {
             Console.WriteLine(message);
         }
-    }   
-    
-    
+    }
+
+
 }
